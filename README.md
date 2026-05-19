@@ -19,10 +19,10 @@ See [DEVELOPMENT.md](./DEVELOPMENT.md) for a detailed account of the development
 
 ### 1. Environment variables
 
-Copy `.env.local.example` to `.env.local` and fill in the values:
+Copy `.env.example` to `.env` and fill in the values:
 
 ```bash
-cp .env.local.example .env.local
+cp .env.example .env
 ```
 
 ```env
