@@ -19,7 +19,7 @@ export default function TodosPage() {
 
   if (isLoading) {
     return (
-      <div className="bg-section-dark flex min-h-screen items-center justify-center">
+      <div className="bg-white flex min-h-screen items-center justify-center">
         <div className="border-brand h-10 w-10 animate-spin rounded-full border-4 border-t-transparent" />
       </div>
     );
