@@ -26,10 +26,20 @@ cp .env.local.example .env.local
 ```
 
 ```env
-DATABASE_URL=postgresql://user:password@host/db?sslmode=require
-JWT_SECRET=your-strong-random-secret
-RESEND_API_KEY=re_your_key
-CONTACT_EMAIL=your@email.com
+NODE_ENV=development
+
+# Neon PostgreSQL Connection
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_USER=user
+DB_PASSWORD=password
+DB_DATABASE=coopers
+DB_CONNECTION=pg
+
+CONTACT_EMAIL=
+
+# Resend
+RESEND_API_KEY=
 ```
 
 ### 2. Run migrations
